@@ -27,6 +27,7 @@ Request
 Para execução, baixar o projeto, ter Node instalado na máquina e na pasta raiz do projeto executar o comando:
 npm install
 Este comando irá baixar as dependências do projeto.
+Informar a key e o token do usuário nas variaveis keyUser e tokenUser na classe spec.js
 Para execução dos testes, executar o comando: mocha test/spec.js --reporter mochawesome
 O relatório será gerado na pasta ../mochawesome-report
 
